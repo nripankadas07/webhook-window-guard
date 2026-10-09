@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "webhook-window-guard"
+version = "0.1.0"
+description = "Standard Webhooks v1 HMAC verification and atomic SQLite claims for replay-window deduplication."
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "Nripanka Das"}]
+dependencies = []
+[project.scripts]
+webhook-window-guard = "webhook_window_guard:main"
+[project.urls]
+Repository = "https://github.com/nripankadas07/webhook-window-guard"
+Issues = "https://github.com/nripankadas07/webhook-window-guard/issues"
+[tool.setuptools]
+py-modules = ["webhook_window_guard"]

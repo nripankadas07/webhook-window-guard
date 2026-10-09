@@ -1,0 +1,32 @@
+[
+  {
+    "args": [
+      "payload.bin",
+      "headers.json",
+      "claims.sqlite",
+      "--now",
+      "1000"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "payload.bin",
+      "headers.json",
+      "claims.sqlite",
+      "--now",
+      "1000"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "payload.bin",
+      "invalid.json",
+      "invalid.sqlite",
+      "--now",
+      "1000"
+    ],
+    "exit": 2
+  }
+]

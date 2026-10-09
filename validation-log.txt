@@ -1,0 +1,46 @@
+test_boundary (test_contract.Tests.test_boundary) ... ok
+test_canonical_stamp (test_contract.Tests.test_canonical_stamp) ... ok
+test_concurrent_processes (test_contract.Tests.test_concurrent_processes) ... ok
+test_expiration_not_early_for_future_stamp (test_contract.Tests.test_expiration_not_early_for_future_stamp) ... ok
+test_future (test_contract.Tests.test_future) ... ok
+test_invalid_does_not_create (test_contract.Tests.test_invalid_does_not_create) ... ok
+test_invalid_does_not_modify (test_contract.Tests.test_invalid_does_not_modify) ... ok
+test_multiple_versions (test_contract.Tests.test_multiple_versions) ... ok
+test_old (test_contract.Tests.test_old) ... ok
+test_raw_utf8_bytes (test_contract.Tests.test_raw_utf8_bytes) ... ok
+test_secret_rejected (test_contract.Tests.test_secret_rejected) ... ok
+test_valid_replay (test_contract.Tests.test_valid_replay) ... ok
+test_whsec (test_contract.Tests.test_whsec) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.043s
+
+OK
+{
+  "first": {
+    "accepted": true,
+    "reason": "claimed",
+    "identity": "msg_demo",
+    "expires": 1300
+  },
+  "duplicate": {
+    "accepted": false,
+    "reason": "replay"
+  }
+}
+Processing /workspace/scratch/5d784ffbbfd3/launch-oct9/webhook-window-guard
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: webhook-window-guard
+  Building wheel for webhook-window-guard (pyproject.toml): started
+  Building wheel for webhook-window-guard (pyproject.toml): finished with status 'done'
+  Created wheel for webhook-window-guard: filename=webhook_window_guard-0.1.0-py3-none-any.whl size=5791 sha256=ea3a69a974ae30032512ac2b75c34c4c0499d97b0e1a655a4073b7fba2391e8a
+  Stored in directory: /root/.cache/pip/wheels/ef/5d/32/1ecb6ff6cb2605d7f38c7567681341001b1f8f5cc612b757b3
+Successfully built webhook-window-guard
+Installing collected packages: webhook-window-guard
+Successfully installed webhook-window-guard-0.1.0
+PASS: fresh package installation and installed CLI good/findings/invalid cases outside source
